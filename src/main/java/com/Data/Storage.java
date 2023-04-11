@@ -20,7 +20,7 @@ public class Storage {
 				try
 				{
 					Class.forName("com.mysql.jdbc.Driver");
-					con=DriverManager.getConnection("jdbc:mysql://localhost:3306/deep_db","root","1234");					
+					con=DriverManager.getConnection("jdbc:mysql://localhost:3306/deep_db","root","root");					
 					//con=DriverManager.getConnection("jdbc:mysql://localhost:3306/deep_db?verifyServerCertificate=false&useSSL=false","root","root");
 					if (con!=null)
 		            {
